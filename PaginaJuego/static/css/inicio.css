@@ -1,0 +1,80 @@
+body {
+    background-image: url("../images/escenarioprincipal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.custom-navbar {
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #000;
+    
+    /* Alto mínimo para que el banner tenga espacio suficiente */
+    min-height: 75px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    /* Centra verticalmente los botones dentro de la barra */
+    display: flex;
+    align-items: center;
+    
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 0px #000000;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffeb3b !important;
+}
+.titulo-principal {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    text-align: center;
+}
+.titulo-secundario {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    text-align: center;
+}
+.subtitulo-seccion {
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000000;
+    font-weight: bold;
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos extra para las tarjetas de ítems/enemigos */
+.subtitulo-seccion {
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000000;
+    font-weight: bold;
+}
+
+.card-custom {
+    background-color: rgba(18, 30, 18, 0.9); /* Verde oscuro estilo militar semitransparente */
+    border: 2px solid #354a2b;
+    color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.card-custom .card-title {
+    color: #ffeb3b; /* Amarillo para resaltar los nombres */
+}
+
+.card-custom img {
+    image-rendering: pixelated; /* Mantiene la nitidez del pixel art */
+    max-height: 180px;
+    object-fit: contain;
+}
